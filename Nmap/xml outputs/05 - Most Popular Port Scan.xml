@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1604774304" profile_name="" xmloutputversion="1.04" scanner="nmap" version="7.91" startstr="Sun Nov 08 00:08:24 2020" args="nmap --top-ports 15 192.168.1.8"><scaninfo services="21-23,25,53,80,110,135,139,143,443,445,3306,3389,8080" protocol="tcp" numservices="15" type="syn"></scaninfo><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.91 ( https://nmap.org ) at 2020-11-08 00:08 India Standard Time
+Nmap scan report for 192.168.1.8
+Host is up (0.0010s latency).
+
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   closed ssh
+23/tcp   closed telnet
+25/tcp   closed smtp
+53/tcp   closed domain
+80/tcp   closed http
+110/tcp  closed pop3
+135/tcp  open   msrpc
+139/tcp  open   netbios-ssn
+143/tcp  closed imap
+443/tcp  closed https
+445/tcp  open   microsoft-ds
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+8080/tcp closed http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 0.28 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="192.168.1.8"></address><hostnames></hostnames><ports><port protocol="tcp" portid="21"><state reason="reset" state="closed" reason_ttl="128"></state><service method="table" conf="3" name="ftp"></service></port><port protocol="tcp" portid="22"><state reason="reset" state="closed" reason_ttl="128"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="23"><state reason="reset" state="closed" reason_ttl="128"></state><service method="table" conf="3" name="telnet"></service></port><port protocol="tcp" portid="25"><state reason="reset" state="closed" reason_ttl="128"></state><service method="table" conf="3" name="smtp"></service></port><port protocol="tcp" portid="53"><state reason="reset" state="closed" reason_ttl="128"></state><service method="table" conf="3" name="domain"></service></port><port protocol="tcp" portid="80"><state reason="reset" state="closed" reason_ttl="128"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="110"><state reason="reset" state="closed" reason_ttl="128"></state><service method="table" conf="3" name="pop3"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="msrpc"></service></port><port protocol="tcp" portid="139"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="netbios-ssn"></service></port><port protocol="tcp" portid="143"><state reason="reset" state="closed" reason_ttl="128"></state><service method="table" conf="3" name="imap"></service></port><port protocol="tcp" portid="443"><state reason="reset" state="closed" reason_ttl="128"></state><service method="table" conf="3" name="https"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="microsoft-ds"></service></port><port protocol="tcp" portid="3306"><state reason="reset" state="closed" reason_ttl="128"></state><service method="table" conf="3" name="mysql"></service></port><port protocol="tcp" portid="3389"><state reason="reset" state="closed" reason_ttl="128"></state><service method="table" conf="3" name="ms-wbt-server"></service></port><port protocol="tcp" portid="8080"><state reason="reset" state="closed" reason_ttl="128"></state><service method="table" conf="3" name="http-proxy"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><runstats><finished timestr="Sun Nov 08 00:08:24 2020" time="1604774304"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>

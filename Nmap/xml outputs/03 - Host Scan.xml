@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1604775322" profile_name="" xmloutputversion="1.04" scanner="nmap" version="7.91" startstr="Sun Nov 08 00:25:22 2020" args="nmap -sn www.google.com"><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.91 ( https://nmap.org ) at 2020-11-08 00:25 India Standard Time
+Nmap scan report for www.google.com (172.217.166.100)
+Host is up (0.025s latency).
+rDNS record for 172.217.166.100: maa05s09-in-f4.1e100.net
+Nmap done: 1 IP address (1 host up) scanned in 0.29 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="172.217.166.100"></address><hostnames><hostname type="user" name="www.google.com"></hostname><hostname type="PTR" name="maa05s09-in-f4.1e100.net"></hostname></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><runstats><finished timestr="Sun Nov 08 00:25:23 2020" time="1604775323"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>
